@@ -1,0 +1,71 @@
+{
+  "_from": "el-cascader-multi@^1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-0+qMHpyW++JPBaVHlF3jwC/cyp+GYervsXAIGaqLFZhswFn2EcofV0rvXG/0p/Q70G/CP6E56UhL+PXimqCLsQ==",
+  "_location": "/el-cascader-multi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "el-cascader-multi@^1.0.6",
+    "name": "el-cascader-multi",
+    "escapedName": "el-cascader-multi",
+    "rawSpec": "^1.0.6",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/el-cascader-multi/-/el-cascader-multi-1.0.6.tgz",
+  "_shasum": "fb4902bcdb73f06d8b8fe39b11fa68b16738fe89",
+  "_spec": "el-cascader-multi@^1.0.6",
+  "_where": "D:\\project\\adminYoute",
+  "author": "charming <2019.02>",
+  "bugs": {
+    "url": "https://github.com/Charming2015/el-cascader-multi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "element-ui": "^2.4.11",
+    "vue": "^2.5.16"
+  },
+  "deprecated": false,
+  "description": "基于element-ui的级联多选",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "express": "^4.16.3",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-hot-middleware": "^2.22.3"
+  },
+  "mode": "development",
+  "homepage": "https://github.com/Charming2015/el-cascader-multi#readme",
+  "keywords": [
+    "element",
+    "multi",
+    "cascader"
+  ],
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "@zhongzhi/el-cascader-multi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charming2015/el-cascader-multi.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "version": "1.0.6"
+}
