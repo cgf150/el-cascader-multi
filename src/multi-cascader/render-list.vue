@@ -2,7 +2,7 @@
   <ul>
     <li class="li-style"
       v-for="(node, nodeIndex) in list"
-      :key="getKey(node)"
+      :key="nodeIndex.value"
       @click="handleClick(node, nodeIndex, level)"
       :class="{'active-li': activeList[level - 1] === node.id}"
       @mouseenter="handleMouseEnter(node, nodeIndex, level)"
